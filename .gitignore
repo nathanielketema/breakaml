@@ -1,0 +1,8 @@
+*
+
+!src/
+!src/*
+
+!.gitignore
+!README.md
+!dune-project
