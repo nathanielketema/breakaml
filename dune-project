@@ -1,10 +1,10 @@
 (lang dune 3.23)
 
-(name breakcaml)
+(name breakaml)
 
 (generate_opam_files true)
 
 (package
- (name breakcaml)
+ (name breakaml)
  (synopsis "Breakout in ocaml")
  (depends ocaml raylib))
