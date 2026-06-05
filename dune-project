@@ -7,4 +7,4 @@
 (package
  (name breakcaml)
  (synopsis "Breakout in ocaml")
- (depends ocaml))
+ (depends ocaml raylib))

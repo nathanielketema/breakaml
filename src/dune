@@ -1,3 +1,4 @@
 (executable
  (public_name breakcaml)
- (name main))
+ (name main)
+ (libraries raylib))
