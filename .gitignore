@@ -1,8 +1,9 @@
 *
 
 !src/
-!src/*
+!src/main.ml
 
 !.gitignore
 !README.md
 !dune-project
+!build.zig
