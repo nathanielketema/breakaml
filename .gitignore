@@ -1,7 +1,8 @@
 *
 
 !src/
-!src/*
+!src/main.ml
+!src/dune
 
 !.gitignore
 !README.md
