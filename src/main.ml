@@ -281,10 +281,15 @@ let system_draw_play (world : world) =
   world
 
 let tick_playing frame_time (world : world) =
-  world |> system_input frame_time
+  world
+  |> system_input frame_time
   |> system_integrate frame_time
-  |> system_walls |> system_paddle |> system_bricks |> system_outcome
-  |> system_draw_play |> ignore
+  |> system_walls
+  |> system_paddle
+  |> system_bricks
+  |> system_outcome
+  |> system_draw_play
+  |> ignore
 
 let game_loop (world : world) =
   while not (window_should_close ()) do
